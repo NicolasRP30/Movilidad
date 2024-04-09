@@ -4,7 +4,7 @@ import numpy as np
 import geopandas as gpd
 import json
 
-with open('Mapa de Accidentalidad Vial Municipio de Medellín 2021.geojson', "r") as read_file:
+with open('total_incidentes_transito.geojson', "r") as read_file:
     data = json.load(read_file)
 
 st.title("Accidentalidad Municipio de Medellín 2021")
