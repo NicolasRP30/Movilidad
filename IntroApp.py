@@ -15,7 +15,7 @@ st.write('Se entiende por accidente de tránsito evento, generalmente involuntar
          )
 st.subheader('Sistema de consulta de Accidentalidad municipio de Medellín')
 
-for feature in parsed_data['features']:
+for feature in data['features']:
     longitud = feature['properties']['LONGITUD']
     latitud = feature['properties']['LATITUD']
     dia = feature['properties']['DIA']
